@@ -6,17 +6,48 @@
 
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap">
         <link rel="stylesheet" href="reset.css">
-        <link rel="stylesheet" href="header.css" />
+        <link rel="stylesheet" href="header-store.css" />
+        <link rel="stylesheet" href="container-store.css">
     </head>
 
     <body>
-        <header>
-            <h1>LOGO</h1> 
-            <nav>
-                <a href="">Produtos</a>
-                <a href="">Serviços</a> 
-                <a href="">Carrinho(10)</a>
-            </nav>
-        </header>
+        <div class="container-store">
+            <header class="header-store">
+                <h1 class="title">Logo</h1> 
+                <nav class="navigation"> 
+                    <input type="search" placeholder="Buscar">
+                    <a class="action" href="">Produtos</a>
+                    <a class="action" href="">Serviços</a> 
+                    <a class="action last" href="">Carrinho(10)</a>
+                </nav>
+            </header>
+
+            <figure class="photo-product"><img src="img/phone.png" alt="fone de ouvido"></figure>
+
+            <section class="wrap-product">
+                <dl class="description-product">
+                    <dt class="name">Fone top, feliz e caro</dt>
+                    <dd class="item -star">
+                        <img src="img/star (1) copy 4.png" alt="estrela">
+                        <img src="img/star (1) copy 4.png" alt="estrela">
+                        <img src="img/star (1) copy 4.png" alt="estrela">
+                        <img src="img/star (1) copy 4.png" alt="estrela">
+                        <img src="img/star (1) copy 4.png" alt="estrela">
+                    </dd>
+                    <dd class="item">4.0 (97)</dd>
+                    <dd class="item -info"><strong class="contrast">Frete</strong> C$ 108</dd>
+                    <dd class="item -info -last"><strong class="contrast">Preço</strong> C$ 340</dd>
+                    <dd class="text">Fone top com uma cor feliz que não tem fio. A cor também é algo que impressiona junto com seu layout modernão!
+                    Ele é caro? É! Mas compre que você não vai se arrepender e se você se arrepender pode vender no mercado livre.. kkkk</dd>
+                    <dd class="text -more"><a class="moreaction" href="">Saber mais...</a></dd>
+                    
+                    
+                </dl>
+                <div class="wrap-buttons">
+                    <button class="button-cart" type="button">Adicionar ao Carrinho</button>
+                    <button class="button-store" type="button">Comprar</button>
+                </div>
+        </section>
+        </div>
     </body>
 </html>
